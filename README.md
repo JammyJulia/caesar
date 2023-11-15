@@ -61,7 +61,10 @@ Piemēri:
   
 ## Ieraksti neatbilstošus specifikācijas punktus zemāk un piemini kāpēc tie neatblist
 Šeit:
-
+ - When the rotation input is not an integer, the code does not proccess the error.
+ - The code does not encode text if it is not uppercase.
+ - 3rd mode "Bruteforcing" deos not exist.
+ - When mode 1 is chosen with inputted text: "TEV AFA VLR TOFQB QEFP?" and rotation -4 the result is: "PAR WBW RHN PKBMX MABL?" while the correct output should be: "WHY DID YOU WRITE THIS". 
 Izmaiņas saglabā savā repozitorijā (Commit changes).  
 
 ## Uzrādi uzdevumu rezultātu pedagogam  
